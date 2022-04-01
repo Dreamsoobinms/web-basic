@@ -92,6 +92,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="index.cshtml" />
+    <Content Include="loopPage.cshtml" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
