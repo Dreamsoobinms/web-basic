@@ -68,3 +68,5 @@ C:\Users\Dream_atiwit\Documents\ASP.net\web-basic\web-basic\obj\Debug\web-basic.
 C:\Users\Dream_atiwit\Documents\ASP.net\web-basic\web-basic\obj\Debug\web-basic.csproj.CopyComplete
 C:\Users\Dream_atiwit\Documents\ASP.net\web-basic\web-basic\obj\Debug\web-basic.dll
 C:\Users\Dream_atiwit\Documents\ASP.net\web-basic\web-basic\obj\Debug\web-basic.pdb
+C:\Users\Dream_atiwit\Documents\ASP.net\web-basic\web-basic\bin\WebMatrix.Data.dll
+C:\Users\Dream_atiwit\Documents\ASP.net\web-basic\web-basic\bin\WebMatrix.Data.xml
