@@ -60,12 +60,18 @@
         headerStyle: "head",
         alternatingRowStyle: "alt",
         columns:grid.Columns(
-                   grid.Column("id"),
-                   grid.Column("name"),
-                   grid.Column("address"),
-                   grid.Column("email"),
-                   grid.Column("Edit",format:@<a href="~/editCustomer?id=@item.id" class="btn btn-success">Edit</a>)
+                   grid.Column("id","รหัสลูกค้า"),
+                   grid.Column("name","ชื่อ"),
+                   grid.Column("address","ที่อยู่"),
+                   grid.Column("email","อีเมลล์"),
+                   grid.Column("Edit",format:@<a href="~/editCustomer?id=@item.id" class="btn btn-success">Edit</a>),
+                   grid.Column("Delete",format:@<a href="~/deleteCustomer?id=@item.id" class="btn btn-danger" onclick=" return confirmDelete();">Delete</a>)
             )
     );
+    <script>
+        function confirmDelete() {
+            confirm("คุณต้องการลบข้อมูลหรือไม่");
+        }
+    </script>
 </body>
 </html>
